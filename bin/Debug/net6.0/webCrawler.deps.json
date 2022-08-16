@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "webCrawler/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.43",
+          "IronXL.Excel": "2022.7.7362"
+        },
+        "runtime": {
+          "webCrawler.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.43": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.43.0",
+            "fileVersion": "1.11.43.0"
+          }
+        }
+      },
+      "IronXL.Excel/2022.7.7362": {
+        "runtime": {
+          "lib/netstandard2.0/IronXL.dll": {
+            "assemblyVersion": "2022.6.0.7362",
+            "fileVersion": "2022.6.0.7362"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "webCrawler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2gpt+S2tdFlQMOC3DK7rHZ8iv6EpDuIo4v0UTUSGX1F1bZ+NAQ3gp77HK8/JfCDszUm3Y2rHoyTp/TpO4KOIA==",
+      "path": "htmlagilitypack/1.11.43",
+      "hashPath": "htmlagilitypack.1.11.43.nupkg.sha512"
+    },
+    "IronXL.Excel/2022.7.7362": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4TVRKjAnj0Xc5OOTnseaZj6LurBGkGEfEP949Pyk6pYapXU3UK+x2+SNEsN9Z0O7ocY2Pu50nFnTlAzQgV6rQA==",
+      "path": "ironxl.excel/2022.7.7362",
+      "hashPath": "ironxl.excel.2022.7.7362.nupkg.sha512"
+    }
+  }
+}
